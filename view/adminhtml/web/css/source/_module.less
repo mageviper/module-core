@@ -1,0 +1,50 @@
+@magevipercore-icons-admin__font-name-path: '../Mageciper_Core/fonts/mageviper/';
+
+@magevipercore-icons-admin__font-name: 'mageviper';
+
+.lib-font-face(
+  @family-name:@magevipercore-icons-admin__font-name,
+  @font-path: @magevipercore-icons-admin__font-name-path,
+  @font-weight: normal,
+  @font-style: normal
+);
+
+.admin__menu .item-mageviper-menu.parent.level-0 > a:before {
+  font-family: @magevipercore-icons-admin__font-name;
+  content: "\e800";
+}
+
+.mageviper-tab strong:before {
+  background: url('../Mageviper_Core/images/mageviper.png') no-repeat;
+  width: 22px;
+  height: 22px;
+  content: '';
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: bottom;
+  background-size: contain;
+}
+
+.block-order-documents .documents-table {
+  width: 100%;
+}
+
+.block-order-documents .documents-table thead {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.block-order-documents .documents-table thead th {
+  padding: 10px 15px 10px 0;
+  text-align: left;
+}
+
+.block-order-documents .documents-table tbody {
+  padding: 16px 10px;
+  font-size: 14px;
+}
+
+.block-order-documents .documents-table tbody tr td {
+  border-top: 1px solid #c2c2c2;
+  padding: 6px 10px 5px 0;
+}

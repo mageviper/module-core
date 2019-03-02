@@ -1,0 +1,10 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mageviper_Core::mageviper_menu"
+             title="Mageviper"
+             module="Mageviper_Core"
+             sortOrder="50"
+             resource="Mageviper_Core::core"
+        />
+    </menu>
+</config>
